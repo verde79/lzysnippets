@@ -1,7 +1,7 @@
 {
     "name": "lzysnippets",
     "displayName": "lzysnippets",
-    "description": "lazy arsed snippets for lazy arsed coders",
+    "description": "lazy javascript snippets for lazy coders",
     "version": "1.0.0",
     "publisher": "planetVerde",
     "engines": {
