@@ -2,6 +2,7 @@
     "name": "lzysnippets",
     "displayName": "lzysnippets",
     "description": "lazy javascript snippets for lazy coders",
+    "icon": "images/lzysnippetsIcon.png",
     "version": "1.0.0",
     "publisher": "planetVerde",
     "engines": {
