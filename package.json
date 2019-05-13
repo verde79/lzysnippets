@@ -1,0 +1,21 @@
+{
+    "name": "lzysnippets",
+    "displayName": "lzysnippets",
+    "description": "lazy arsed snippets for lazy arsed coders",
+    "version": "1.0.0",
+    "publisher": "planetVerde",
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}

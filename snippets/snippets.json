@@ -1,0 +1,62 @@
+{
+    
+"lzysnippets let function":{
+    "prefix":"$ll",
+    "body":[
+        "/* $1 */",
+        "let $2 = ($3) => {",
+            "return (",
+                "$4",
+            ");",
+        "};",
+        "$0"
+        ],
+        "description":"creates an es6 function with let"
+    },
+    
+"lzysnippets const function":{
+    "prefix":"$lc",
+    "body":[
+        "/* $1 */",
+        "const $2 = ($3) => {",
+            "return (",
+                "$4",
+            ");",
+        "};",
+        "$0"
+        ],
+        "description":"creates an es6 function with const"
+    },
+    
+"lzysnippets console log":{
+    "prefix":"$cl",
+    "body":[
+        "console.log($1);"
+        ],
+        "description":"console.log a value"
+    },
+
+"lzysnippets console log a string":{
+    "prefix":"$cls",
+    "body":[
+        "console.log(\"$1\");"
+        ],
+        "description":"console.log a string"
+    },
+
+"lzysnippets console trace":{
+    "prefix":"$ct",
+    "body":[
+        "console.trace($1);"
+        ],
+        "description":"console.trace a value"
+    },
+    
+"lzysnippets console trace a string":{
+    "prefix":"$cts",
+    "body":[
+        "console.trace(\"$1\");"
+        ],
+        "description":"console.trace a string"
+    }
+}
