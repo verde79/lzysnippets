@@ -2,8 +2,8 @@
     "name": "lzysnippets",
     "displayName": "lzysnippets",
     "description": "lazy javascript snippets for lazy coders",
-    "icon": "images/lzysnippetsIcon.png",
-    "version": "1.0.0",
+    "icon": "icon.png",
+    "version": "1.1.0",
     "publisher": "planetVerde",
     "engines": {
         "vscode": "^1.33.0"
@@ -13,8 +13,8 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/verde79/lzysnippets"
-      },
+        "url": "https://github.com/verde79/lzysnippets.git"
+    },
     "contributes": {
         "snippets": [
             {
