@@ -58,5 +58,21 @@
         "console.trace(\"$1\");"
         ],
         "description":"console.trace a string"
-    }
+    },
+
+"Open a link in a new window":{
+    "prefix":"$hol",
+    "body":[
+        "<a href=\"$1\" target=\"_blank\" rel=\"noopener noreferrer\">$2</a>"
+    ],
+    "description":"open an html link in new window"
+    },
+
+"Link to stylesheet":{
+    "prefix":"$sty",
+    "body":[
+        "<link rel=\"stylesheet\" href=\"$1.css\">$0"
+    ],
+    "description":"Link html file to stylesheet"
+}
 }

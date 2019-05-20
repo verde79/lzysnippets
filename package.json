@@ -1,9 +1,9 @@
 {
     "name": "lzysnippets",
     "displayName": "lzysnippets",
-    "description": "lazy javascript snippets for lazy coders",
+    "description": "lazy snippets for lazy coders",
     "icon": "icon.png",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "publisher": "planetVerde",
     "engines": {
         "vscode": "^1.33.0"
@@ -19,6 +19,10 @@
         "snippets": [
             {
                 "language": "javascript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "html",
                 "path": "./snippets/snippets.json"
             }
         ]
